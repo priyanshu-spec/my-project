@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    
+    <section class="search-section">
+        <div class="search-container">
+            <div class="dropdown">
+                <button class="dropbtn">Select Category</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="selectCategory('Everything')">Everything</a>
+                    <a href="#" onclick="selectCategory('Software Development')">Software Development</a>
+                    <a href="#" onclick="selectCategory('Web Development')">Web Development</a>
+                    <a href="#" onclick="selectCategory('Data Analyst')">Data Analyst</a>
+                    <a href="#" onclick="selectCategory('IT Consultant')">IT Consultant</a>
+                    <a href="#" onclick="selectCategory('Network Administrator')">Network Administrator</a>
+                </div>
+            </div>
+            <input type="text" class="search-input" placeholder="Enter your search query" id="search-input">
+            <button class="search-button">Search</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
